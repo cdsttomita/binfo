@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34a06786-443a-44c4-8a49-e3e12a6ac382}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c6d7f61a-e81f-4128-bee2-7a931f741490}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{3ca236e8-0fb1-4e3e-8fd5-c440d8753d1e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BINFO.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BINFODISP.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BINFOMKF.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BINFOMSG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BINFOPRNT.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BINFOSUB.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="binfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binfo_proc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
